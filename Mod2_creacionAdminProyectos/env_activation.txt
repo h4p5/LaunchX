@@ -1,0 +1,14 @@
+##### Virtual environments activation #####
+>cd path/to/folder
+>python -m venv env  #venv->virtual environment, env-> folder to install
+#verify env structure
+#new folder to use env, typically /src
+>env\Scripts\activate.bat
+# an (env) label will show up at the beginning of the prompt line
+# now every action remains in this virtual environment
+
+##### 
+# to list the packages installed in the venv
+pip freeze
+# install a package from compressed file
+python -m pip install package.tar.gz
